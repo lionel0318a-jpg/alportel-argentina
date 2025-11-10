@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#2d5016"/>
+
+  <!-- Plant icon -->
+  <g fill="#daa520">
+    <!-- Stem -->
+    <rect x="30" y="20" width="4" height="24" rx="2"/>
+
+    <!-- Leaves -->
+    <ellipse cx="26" cy="28" rx="8" ry="5" transform="rotate(-30 26 28)"/>
+    <ellipse cx="38" cy="28" rx="8" ry="5" transform="rotate(30 38 28)"/>
+    <ellipse cx="24" cy="36" rx="7" ry="4" transform="rotate(-40 24 36)"/>
+    <ellipse cx="40" cy="36" rx="7" ry="4" transform="rotate(40 40 36)"/>
+
+    <!-- Seed/grain on top -->
+    <circle cx="32" cy="18" r="4"/>
+  </g>
+</svg>
