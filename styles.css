@@ -91,6 +91,19 @@ body {
 .nav-actions {
     display: flex;
     align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent-gold);
 }
 
 .nav-contact-btn {
@@ -954,6 +967,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .nav-link {
+        font-size: 0.85rem;
+    }
+
     .nav-contact-btn span {
         display: none;
     }
